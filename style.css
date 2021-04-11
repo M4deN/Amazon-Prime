@@ -41,3 +41,17 @@ header{
 .menu-itens a:hover{
     color: azure;
 }
+.search{
+    width: 60%;
+    text-align: right;
+}
+.input-search{
+    position: relative;
+    width: 200px;
+    display: inline-block;
+}
+.input-search i{
+    left: 0;
+    top :0;
+    color: rgb(100,100,100);
+}
