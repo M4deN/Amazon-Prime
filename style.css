@@ -1,7 +1,7 @@
 *{
     margin 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-family: arial;
 }
 body{
@@ -62,7 +62,7 @@ header{
     height: 30px;
     border: 1px solid rgb(120,120,120);
     margin: 9px 0;
-    padding-left: 0px;
+    padding-left: 26px;
     background-color: rgb(42,42,42);
     color: azure;
 }
