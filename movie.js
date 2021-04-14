@@ -16,7 +16,7 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
         }else{
             if(j==1){
                 main.innerHTML+=`
-                    <h2>Assista Os Melhores Filmes</h2>
+                    <h2>Lançamentos</h2>
                     <div class="card-movie"><img src="https://image.tmdb.org/t/p/w300`+i.poster_path+`" /></div>
                 `;
             }else{
@@ -25,7 +25,7 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
                     
                     <div class="card-movie"><img src="https://image.tmdb.org/t/p/w300`+i.poster_path+`" /></div>
                 `;
-             }
+            }
         
         }
 
