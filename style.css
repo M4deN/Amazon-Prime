@@ -72,3 +72,16 @@ header{
     background-size: cover;
     background-position: center;
 }
+
+.main h2{
+    color: white;
+    width: 100%;
+    margin 30px 0;
+}
+.card-movie{
+    width 20%;
+    
+}
+.card-movie img{
+    width 100%;
+}
