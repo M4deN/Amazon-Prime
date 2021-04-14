@@ -35,7 +35,7 @@ header{
     display: inline-block;
 }
 .menu-itens a{
-    color: rgb(120,120,120);
+    color: rgb(255, 255, 255);
     margin-right: 10px;
     text-decoration: none;
 }
@@ -81,7 +81,9 @@ header{
 .card-movie{
     width 20%;
     
+    
 }
 .card-movie img{
+    
     width 100%;
 }
