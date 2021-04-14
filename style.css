@@ -32,6 +32,7 @@ header{
 }
 .menu-itens{
     padding: 0 20px;
+    margin-right: 10px;
     display: inline-block;
 }
 .menu-itens a{
@@ -80,10 +81,12 @@ header{
 }
 .card-movie{
     width 20%;
-    
-    
+    transition:1s;
 }
 .card-movie img{
     
     width 100%;
+}
+.card-movie img:hover{
+    transform: scale(1.1,1.1);
 }
