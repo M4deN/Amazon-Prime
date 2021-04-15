@@ -93,7 +93,8 @@ header{
 }
 footer#rodape{
 	clear: both;
-	border-top: 1px solid #fdfdfd;
+    border-top: 1px solid #fdfdfd;
+    
 }
 footer#rodape p{
 	text-align: center;
