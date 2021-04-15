@@ -32,7 +32,8 @@ header{
 }
 .menu-itens{
     padding: 0 20px;
-    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
     display: inline-block;
 }
 .menu-itens a{
