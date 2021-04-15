@@ -91,3 +91,10 @@ header{
 .card-movie img:hover{
     transform: scale(1.1,1.1);
 }
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #fdfdfd;
+}
+footer#rodape p{
+	text-align: center;
+}
