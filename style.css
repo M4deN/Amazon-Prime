@@ -6,6 +6,7 @@
 }
 body{
     background-color: rgb(20,20,20);
+    color: rgb(255, 255, 255);
 }
 header{
     padding:8px 0;
@@ -92,11 +93,14 @@ header{
 .card-movie img:hover{
     transform: scale(1.1,1.1);
 }
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
 footer#rodape{
 	clear: both;
-    border-top: 1px solid #fdfdfd;
-    
+    border-top: 1px solid #fdfdfd; 
 }
 footer#rodape p{
-	text-align: center;
+    	text-align: center;
 }
