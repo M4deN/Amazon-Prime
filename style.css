@@ -21,6 +21,7 @@ header{
 .logo{
     display: inline-block;
     vertical-align: middle;
+
 }
 .logo img{
     max-width: 120px;
@@ -79,13 +80,13 @@ header{
     color: white;
     width: 100%;
     margin 30px 0;
+    
 }
 .card-movie{
     width 20%;
     transition:1s;
 }
 .card-movie img{
-    
     width 100%;
 }
 .card-movie img:hover{
