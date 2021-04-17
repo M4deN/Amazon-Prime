@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<head>
 	<meta charset="UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <head>
+        <title>Amazon Prime Video </title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
     <body>
-        <html>
-            <body class="container">
+        <header>
+            <div class="center">
 
                 <div class="menu">
                     <div class="logo">
@@ -14,16 +16,31 @@
                     </div>
 
                     <div class="menu-itens">
-                        <a href="home.html">Home</a>
+                        <a href="index.html">Home</a>
                         <a href="#">TV Shows</a>
                         <a href="#">Movies</a>
-                        <a href="#">Cadastre-se</a>
+                        <a href="login.html">Login</a>
                         
-            <body>   
                     </div>
+                </div><!--menu-->
+                    <div class="search">
+                        <div class="input-search">
+
+                        <i class="fas fa-search"></i>
+
+                        <input placeholder="Search...." type="text"/>
+
+                        </div><!--input-search-->
+
+                    </div>
+
+            </div><!--center-->
+        </header>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
     <head>
-        
         <title>Amazon Prime Video </title>
+        <link href="style.css" rel="stylesheet" />
         <style>
             *{
                 padding: 0;
@@ -37,7 +54,8 @@
                 min-height: 100vh;
                 display:flex;justify-content: center;
                 align-items:center;
-            }form{
+            }
+            form{
                 width 350px;
                 height 500px;
                 background: #202020;
@@ -50,17 +68,57 @@
                 left:-2px;
                 bottom:-2px;
                 right: -2px;
-                transform:skew(2deg,2deg);
-                background:linear-gradient(45deg, #00b7ff,#86845f);
+                background:linear-gradient(45deg, #00b7ff,#86045f);
                 z-index: -1;
+            }form input{
+                width:100%;
+                margin-bottom:30px;
+                padding: 10px;
+                background: transparent;
+                border:none;
+                height: 40px;
+                font-size:18px;
+                outline:none;
+            }form input::placeholder{
+                background:linear-gradient(130deg,#00b7ff,#86045f);
+                -webkit-background-clip: text;]
+                -webkit-text-fill-color: transparent;
+            }.box{
+                width: 100%;
+                height:auto;
+                position:relative;
+                margin-bottom: 20px;
+            }.box span{
+                height: 2px;
+                width:0%;
+                display:block;
+                background:linear-gradient(45deg,#00b7ff,#86045f);
+                position:absolute;
+                bottom: 30px;
+                transition: .5s ease-in-out;
+            }input:focus+span{
+                width:100%;
+            }input[type='submit']{
+                background: linear-gradient(130deg,#00b7ff,#86045f);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-transform: uppercase;
+                font-weight: 900;
+                border-radius: 20px;
+                margin-top:30px;
+                cursor: pointer;
+            }input[type='submit']:hover{
+                box-shadow: 0 0 20px #86045f, 0 0 40px #00b7ff, 0 0 60px #00b7ff;
             }
         </style>
-        <link href="style.css" rel="stylesheet" />
     </head>
-    
+ <body>
+        
+    </head>
+    <div class="container">
                     <form action="">
                          <div class="box">
-                                <input type="text" placeholder="nome">
+                                <input type="text" placeholder="Nome">
                                 <span></span>
                             </div>
                             <div class="box">
