@@ -8,7 +8,7 @@
 ![parte5](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar5.PNG)
 ![parte6](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar6.PNG)
 ### Tela Login
-![parte7](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Captura3r.PNG)
+![parte7](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar8.PNG)
 
 
  
