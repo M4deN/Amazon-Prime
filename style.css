@@ -33,7 +33,7 @@ header{
     display: flex;
 }
 .menu-itens{
-    padding: 0 20px;
+    padding: 0 10px;
     margin-top: 10px;
     margin-left: 20px;
     display: inline-block;
@@ -71,8 +71,8 @@ header{
     color: azure;
 }
 .banner-principal{
-    width: 100%;
-    height: 400px;
+    width: 98.1%;
+    height: 600px;
     background-size: cover;
     background-position: center;
 }
@@ -80,11 +80,10 @@ header{
 .main h2{
     color: white;
     width: 100%;
-    margin 30px 0;
+    margin: 30px 0;
     
 }
 .card-movie{
-    width 20%;
     transition:1s;
 }
 .card-movie img{
