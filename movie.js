@@ -10,13 +10,13 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
         if(j == 0){
 
             main.innerHTML+=`
-
-                 <div class="banner-principal" style="background-image:url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
+            
+            <div class="banner-principal" style="margin-top:10px;background-image:url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
             `;
         }else{
             if(j==1){
                 main.innerHTML+=`
-                    <h2>Lançamentos</h2>
+                    <h2>BEM VINDO ÉDER OLIVEIRA</h2>
                     <div class="card-movie"><img src="https://image.tmdb.org/t/p/w300`+i.poster_path+`" /></div>
                 `;
             }else{
@@ -42,13 +42,13 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
         if(j == 0){
 
             main.innerHTML+=`
-
-                 <div class="banner-principal" style="background-image:url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
+            <h2>EM CARTAZ</h2>
+            <div class="banner-principal" style="margin-top:10px;background-image:url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
             `;
         }else{
             if(j==1){
                 main.innerHTML+=`
-                    <h2>Lançamentos</h2>
+                    <h2>AÇÃO</h2>
                     <div class="card-movie"><img src="https://image.tmdb.org/t/p/w300`+i.poster_path+`" /></div>
                 `;
             }else{
@@ -73,13 +73,13 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
         if(j == 0){
 
             main.innerHTML+=`
-                
+                <h2>EM CARTAZ</h2>
                  <div class="banner-principal" style="margin-top:20px;background-image:url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
             `;
         }else{
             if(j==1){
                 main.innerHTML+=`
-                <h2>Para Assistir Agora</h2>
+                <h2>PARA ASSISTIR AGORA</h2>
                     <div class="card-movie"><img src="https://image.tmdb.org/t/p/w300`+i.poster_path+`" /></div>
                 `;
             }else{
@@ -104,13 +104,13 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
         if(j == 0){
 
             main.innerHTML+=`
-                
+                 <h2>EM CARTAZ</h2>
                  <div class="banner-principal" style="margin-top:20px;background-image:url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
             `;
         }else{
             if(j==1){
                 main.innerHTML+=`
-                <h2>Ação</h2>
+                 <h2>SUSPENSE</h2>
                     <div class="card-movie"><img src="https://image.tmdb.org/t/p/w300`+i.poster_path+`" /></div>
                 `;
             }else{
@@ -135,13 +135,13 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=506fadb0256c13349acc05
         if(j == 0){
 
             main.innerHTML+=`
-                
+                <h2>EM CARTAZ</h2>
                  <div class="banner-principal" style="margin-top:20px;background-image:url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
             `;
         }else{
             if(j==1){
                 main.innerHTML+=`
-                <h2>Suspense</h2>
+                    <h2>AVENTURA</h2>
                     <div class="card-movie"><img src="https://image.tmdb.org/t/p/w300`+i.poster_path+`" /></div>
                 `;
             }else{
