@@ -91,6 +91,7 @@ header{
     transition:1s;
 }
 .card-movie img{
+    
     width 100%;
 }
 .card-movie img:hover{
