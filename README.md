@@ -39,7 +39,7 @@ Foi desenvolvido diretamente no código.</p>
 ![Começo](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar1.PNG)
 ![parte2](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar9.PNG)
 
-<h3>Todos os titulos com exceção do banner principal foram inseridos dinamicamente através de uma API:</h3>
+<h3>Todos os titulos foram inseridos dinamicamente através de uma API, diferente do projeto Netflix onde o banner era fixo:</h3>
 
 ![parte2](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar2.PNG)
 
