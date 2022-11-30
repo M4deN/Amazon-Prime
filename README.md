@@ -47,14 +47,15 @@ Foi desenvolvido diretamente no código.</p>
 
 ![parte7](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar8.PNG)
 
-##### Autor do Projeto: Alécio L. Medeiros
+<h3 id="autor"Autor</h3>
+
+<p>Autor do Projeto: Alécio L. Medeiros</p>
 
 <p> 
   <a href="https://www.linkedin.com/in/alex-leandro-medeiros-5b68741a3/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a> 
-  <a href="https://github.com/AlexDeSaran">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+
   </a> 
   <a href="https://www.instagram.com/alexdesaran/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
