@@ -1,138 +1,165 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
+
     <head>
         <title>Amazon Prime Video </title>
         <link href="style.css" rel="stylesheet" />
     </head>
-    <body>
-        <header>
-            <div class="center">
 
-                <div class="menu">
-                    <div class="logo">
-                        <img src="../Amazon-Prime/Imagens/Amazon_Logo.png"/>
-                    </div>
+<body>
+    <header>
+        <div class="center">
 
-                    <div class="menu-itens">
-                        <a href="index.html">Home</a>
-                        <a href="#">TV Shows</a>
-                        <a href="#">Movies</a>
-                        <a href="login.html">Login</a>
-                        
-                    </div>
-                </div><!--menu-->
-                    <div class="search">
-                        <div class="input-search">
+            <div class="menu">
+                <div class="logo">
+                    <img src="../Amazon-Prime/Imagens/Amazon_Logo.png" />
+                </div>
 
-                        <i class="fas fa-search"></i>
+                <div class="menu-itens">
+                    <a href="index.html">Home</a>
+                    <a href="#">TV Shows</a>
+                    <a href="#">Movies</a>
+                    <a href="login.html">Login</a>
 
-                        <input placeholder="Search...." type="text"/>
+                </div>
+            </div><!--menu-->
+            <div class="search">
+                <div class="input-search">
 
-                        </div><!--input-search-->
+                    <i class="fas fa-search"></i>
 
-                    </div>
+                    <input placeholder="Search...." type="text" />
 
-            </div><!--center-->
-        </header>
+                </div><!--input-search-->
+
+            </div>
+
+        </div><!--center-->
+    </header>
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
+
     <head>
         <title>Amazon Prime Video </title>
         <link href="style.css" rel="stylesheet" />
         <style>
-            *{
+            * {
                 padding: 0;
                 margin: 0;
                 box-sizing: border-box;
-            }body{
+            }
+
+            body {
                 background: #050505;
             }
-            .container{
+
+            .container {
                 width: 100%;
                 min-height: 100vh;
-                display:flex;justify-content: center;
-                align-items:center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
-            form{
+
+            form {
                 width 350px;
                 height 500px;
                 background: #000000;
-                padding:30px;
-                position:relative;
-            }form::before{
+                padding: 30px;
+                position: relative;
+            }
+
+            form::before {
                 content: '';
                 position: absolute;
                 top: -2px;
-                left:-2px;
-                bottom:-2px;
+                left: -2px;
+                bottom: -2px;
                 right: -2px;
-                background:linear-gradient(45deg, #00b7ff,#86045f);
+                background: linear-gradient(45deg, #00b7ff, #86045f);
                 z-index: -1;
-            }form input{
-                width:100%;
-                margin-bottom:30px;
+            }
+
+            form input {
+                width: 100%;
+                margin-bottom: 30px;
                 padding: 10px;
                 background: transparent;
-                border:none;
+                border: none;
                 height: 40px;
-                font-size:18px;
-                outline:none;
-            }form input::placeholder{
-                background:linear-gradient(130deg,#00b7ff,#86045f);
-                -webkit-background-clip: text;]
-                -webkit-text-fill-color: transparent;
-            }.box{
+                font-size: 18px;
+                outline: none;
+            }
+
+            form input::placeholder {
+                background: linear-gradient(130deg, #00b7ff, #86045f);
+                -webkit-background-clip: text;
+                ] -webkit-text-fill-color: transparent;
+            }
+
+            .box {
                 width: 100%;
-                height:auto;
-                position:relative;
+                height: auto;
+                position: relative;
                 margin-bottom: 20px;
-            }.box span{
+            }
+
+            .box span {
                 height: 2px;
-                width:0%;
-                display:block;
-                background:linear-gradient(45deg,#00b7ff,#86045f);
-                position:absolute;
+                width: 0%;
+                display: block;
+                background: linear-gradient(45deg, #00b7ff, #86045f);
+                position: absolute;
                 bottom: 30px;
                 transition: .5s ease-in-out;
-            }input:focus+span{
-                width:100%;
-            }input[type='submit']{
-                background: linear-gradient(130deg,#00b7ff,#86045f);
+            }
+
+            input:focus+span {
+                width: 100%;
+            }
+
+            input[type='submit'] {
+                background: linear-gradient(130deg, #00b7ff, #86045f);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 text-transform: uppercase;
                 font-weight: 900;
                 border-radius: 20px;
-                margin-top:30px;
+                margin-top: 30px;
                 cursor: pointer;
-            }input[type='submit']:hover{
+            }
+
+            input[type='submit']:hover {
                 box-shadow: 0 0 20px #86045f, 0 0 40px #00b7ff, 0 0 60px #00b7ff;
             }
         </style>
     </head>
- <body>
-        
-    </head>
-    <div class="container">
-                    <form action="">
-                         <div class="box">
-                                <input type="text" placeholder="Nome">
-                                <span></span>
-                            </div>
-                            <div class="box">
-                                <input type="password" name=""id="" placeholder="Password">
-                                <span>
-                                    </span>
-                                </div>
-                            <div class="box">
-                                <input type="submit" value="Entrar">
-                            </div>
-                            <div class="box">
-                                <input type="submit" value="Cadastrar">
-                            </div>
-                    </form>
+
+    <body>
+
+        </head>
+        <div class="container">
+            <form action="">
+                <div class="box">
+                    <input type="text" placeholder="Nome">
+                    <span></span>
                 </div>
-            </body>
-            </html>
+                <div class="box">
+                    <input type="password" name="" id="" placeholder="Password">
+                    <span>
+                    </span>
+                </div>
+                <div class="box">
+                    <input type="submit" value="Entrar">
+                </div>
+                <div class="box">
+                    <input type="submit" value="Cadastrar">
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>

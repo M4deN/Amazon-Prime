@@ -1,0 +1,15 @@
+{
+  "name": "amazon-prime",
+  "version": "1.0.0",
+  "description": "projeto para pratica de conceitos basicos de desenvolvimento web",
+  "main": "n",
+  "scripts": {
+    "test": "cypress run --reporter nyan",
+    "cy:open": "cypress open"
+  },
+  "author": "Alecio L. Medeiros",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.15.0"
+  }
+}
