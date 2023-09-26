@@ -45,3 +45,16 @@ Foi desenvolvido diretamente no código.</p>
 <h3>Tela de login, idéia minha:</h3>
 
 ![parte7](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar8.PNG)
+
+## CI (Integração Contínua)
+
+O projeto utiliza GitHub Actions para execução de testes automatizados em ambientes de integração contínua. A configuração do fluxo de trabalho pode ser encontrada no arquivo `.github/workflows`:
+
+### Arquivo: .github/workflows/main.yml
+
+```yaml
+name: API-RESTFUL Tests 🧪
+```
+## Licença
+
+Este projeto está licenciado sob a licença MIT.
