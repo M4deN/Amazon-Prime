@@ -32,21 +32,20 @@ Foi desenvolvido diretamente no código.</p>
 
 <p>A página apresenta algumas sessões, essa é a sessão principal. Nela contém um menu na parte superior para a navegação na página<p>
 
-<h3>Sessão Principal:</h3>
+<h2>Sessão Principal:</h2>
 
-
-![Começo](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar1.PNG)
-![parte2](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar9.PNG)
-
-<h3>Todos os titulos foram inseridos dinamicamente através de uma API, diferente do projeto Netflix onde o banner era fixo:</h3>
-
-![parte2](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar2.PNG)
+![Começo](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar1.jpg)
 
 <h3>Tela de login, idéia minha:</h3>
 
 ![parte7](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar8.PNG)
 
-## CI (Integração Contínua)
+<h3>Testes Automatizados</h3>
+
+https://github.com/M4deN/Amazon-Prime/assets/43422425/dadd7810-4360-44d7-9854-d2f766a6a12d
+
+
+<h2> CI (Integração Contínua)</h2>
 
 O projeto utiliza GitHub Actions para execução de testes automatizados em ambientes de integração contínua. A configuração do fluxo de trabalho pode ser encontrada no arquivo `.github/workflows`:
 
