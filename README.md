@@ -34,7 +34,7 @@ Foi desenvolvido diretamente no código.</p>
 
 <h2>Sessão Principal:</h2>
 
-![Começo](https://github.com/AlexDeSaran/Amazon-Prime/blob/main/Imagens/Capturar1.jpg)
+![Começo](https://github.com/M4deN/Amazon-Prime/blob/main/Imagens/Capturar1.PNG)
 
 <h3>Tela de login, idéia minha:</h3>
 
