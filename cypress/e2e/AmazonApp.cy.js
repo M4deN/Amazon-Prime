@@ -44,35 +44,69 @@ describe('Navegação no Menu', () => {
     })
 
     it('Deve permitir a realização de buscas', () => {        
-        cy.get('.input-search input').should('be.visible').type('Termo de busca');
-        cy.get('.input-search i').should('have.class', 'fas fa-search');
+        cy.get('.input-search input').should('be.visible').type('Termo de busca')
+        cy.get('.input-search i').should('have.class', 'fas fa-search')
     });
 
     it('Deve exibir o rodapé corretamente', () => {        
         cy.contains('Copyright © 2021 - by Alécio Leandro De Medeiros')
-        cy.get('#rodape a').should('have.length', 2);
-        cy.get('#rodape a').first().should('have.attr', 'href', 'https://www.facebook.com/alex.leandro.0007');
-        cy.get('#rodape a').last().should('have.attr', 'href', 'https://www.instagram.com/alexdesaran/');
+        cy.get('#rodape a').should('have.length', 2)
+        cy.get('#rodape a').first().should('have.attr', 'href', 'https://www.facebook.com/alex.leandro.0007')
+        cy.get('#rodape a').last().should('have.attr', 'href', 'https://www.instagram.com/alexdesaran/')
     })
 
 
   context('Carregamento de Filmes API Externa', () => {
     it('Deve carregar filmes da API corretamente', () => {        
         cy.get('.card-movie').should('have.length.greaterThan', 0)
-    });
+    })
 
     it('Deve exibir banners principais corretamente', () => {
         cy.get('.banner-principal').should('have.length.greaterThan', 0)
-    });
-
-    it('Deve exibir os títulos corretamente', () => {
-        // Verifica se os títulos foram carregados
-        cy.contains('h2', 'BEM VINDO ÉDER OLIVEIRA').should('exist')
-        cy.contains('h2', 'EM CARTAZ').should('exist')
-        cy.contains('h2', 'AÇÃO').should('exist')
-        cy.contains('h2', 'PARA ASSISTIR AGORA').should('exist')
-        cy.contains('h2', 'SUSPENSE').should('exist')
-        cy.contains('h2', 'AVENTURA').should('exist')
     })
+
+    it('Deve obter uma lista de filmes populares', () => {
+        cy.request({
+          method: 'GET',
+          url: 'https://api.themoviedb.org/3/movie/popular',
+          qs: {
+            api_key: '506fadb0256c13349acc05dabebf9604',
+            language: 'en-US',
+            page: 1
+          }
+        }).then((response) => {
+          expect(response.status).to.eq(200);
+          expect(response.body.results).to.be.an('array').that.is.not.empty;
+        });
+      });
   })
+
+  it('Deve obter os filmes populares', () => {
+    cy.request({
+      method: 'GET',
+      url: 'https://api.themoviedb.org/3/movie/popular',
+      qs: {
+        api_key: '506fadb0256c13349acc05dabebf9604',
+        language: 'en-US',
+        page: 1
+      }
+    }).then((response) => {
+      expect(response.status).to.eq(200);
+      expect(response.body.results).to.have.length.greaterThan(0);
+    });
+  });
+
+  it('Deve obter os detalhes de um filme específico', () => {
+    cy.request({
+      method: 'GET',
+      url: 'https://api.themoviedb.org/3/movie/550', 
+      qs: {
+        api_key:  '506fadb0256c13349acc05dabebf9604',
+        language: 'en-US'
+      }
+    }).then((response) => {
+      expect(response.status).to.eq(200);
+      expect(response.body.title).to.eq('Fight Club');
+    });
+  });
 })

@@ -1,5 +1,5 @@
 *{
-    margin 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
@@ -7,33 +7,40 @@
 body{
     background-color: rgb(20,20,20);
     color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;   
 }
+
 header{
     padding:8px 0;
     background-color: rgb(40,40,40);
 }
-.center{
-    max-width: 1280px;
+.center {
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 2%;
-    display: flex;
-    flex-wrap: wrap;
-}
+    padding: 0 ;
+  }
+  
 .logo{
     display: inline-block;
     vertical-align: middle;
 
 }
 .logo img{
-    margin-left: -100px;
+    margin-left: 10%;
     margin-top: -35px;
     max-width: 180px ;
     width: 500px;
     
 }
+.cards-container {
+    display: center;
+    gap: 1px; 
+  }
+  
 .menu{
     width: 40%;
     display: flex;
+    position: inherit;
 }
 .menu-itens{
     padding: 0 10px;
@@ -47,64 +54,136 @@ header{
     text-decoration: none;
 }
 .menu-itens a:hover{
-    color: azure;
+    color: rgb(9, 173, 173);
 }
-.search{
-    width: 60%;
+.search {
+    width: 40%; 
     text-align: right;
 }
-.input-search{
-    position: relative;
-    width: 200px;
+
+.search {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    width: 40%;
+    text-align: right;
+}
+
+.input-search {
     display: inline-block;
+    margin-top: 1%;
+    margin-left: 0; /* Mudei o margin-left para 0 */
+    margin-right: 6%;
 }
-.input-search i{
-    position: absolute;
-    left: 4px;
-    top :37px;
-    color: rgb(100,100,100);
+
+.input-search i {
+    position: relative; /* Mudei a posição para 'relative' */
+    left: auto; /* Removi o 'left' */
+    top: auto; /* Removi o 'top' */
+    color: rgb(100, 100, 100);
 }
-.input-search input[type=text]{
-    width: 100%;
+
+.input-search input[type=text] {
+    width: 80%;
     height: 30px;
-    border: 1px solid rgb(120,120,120);
-    margin: 30px 0;
+    border: 1px solid rgb(120, 120, 120);
+    margin: 10px 0; /* Ajustei o margin */
     padding-left: 26px;
-    background-color: rgb(42,42,42);
+    background-color: rgb(42, 42, 42);
     color: azure;
 }
+
+
 .banner-principal{
-    width: 98.1%;
-    height: 630px;
+    width: 88%;
+    height: 700px;
     background-size: cover;
     background-position: center;
-    
-}
+    margin-top: 1px;
+}  
 
 .main h2{
     color: white;
     width: 100%;
-    margin: 30px 0;
-    
+    margin:  0;    
 }
-.card-movie{
-    transition:1s;
+.card-movie {
+    transition: 1s;
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 12.5%; /* 100% dividido por 8 */
+    box-sizing: border-box; /* Garante que a largura inclui padding e borda */
+    margin-top: 0.5%;
+  }
+  
+  
+  .card-movie img {
+    width: 100%;
+    height: auto; /* Para manter a proporção da imagem */
+  }
+  
+  .centro {
+    padding: 12px 1%;
+    display: flex;
+    justify-content: center; /* Agora, centralizamos os cards */
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-top: 3px;
 }
-.card-movie img{
-    
-    width 100%;
+.banner-principal:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 .card-movie img:hover{
     transform: scale(1.1,1.1);
 }
-p{
-	text-align: justify;
-	text-indent: 50px;
+
+footer{
+    clear: both;
+    border-top: 1px solid #c7c6c6; 
+    position: inherit;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+  footer p, a{
+    margin-top: auto;
+    margin-left: 0.2em;
+    color: var(--white);
+    align-items: center;
+  }
+  
+.main p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: center;
 }
-footer#rodape{
-	clear: both;
-    border-top: 1px solid #6d6c6c; 
+
+.main strong {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
 }
-footer#rodape p{
-    	text-align: center;
+.main h2 {
+    margin-top: 2%;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
 }
+
+.main ul {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.main ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+

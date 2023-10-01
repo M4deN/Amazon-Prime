@@ -1,62 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <meta charset="UTF-8">
-
 <head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <title>Amazon Prime Video </title>
     <link rel="icon" href="../Amazon-Prime/Imagens/icon.png">
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 </head>
-
 <body>
     <header>
         <div class="center">
-
             <div class="menu">
                 <div class="logo">
                     <img src="../Amazon-Prime/Imagens/Amazon_Logo.png" />
                 </div>
-
                 <div class="menu-itens">
                     <a href="home.html">Home</a>
                     <a href="#">TV Shows</a>
                     <a href="#">Movies</a>
                     <a href="login.html">Login</a>
-
                 </div>
             </div><!--menu-->
             <div class="search">
                 <div class="input-search">
-
                     <i class="fas fa-search"></i>
-
                     <input placeholder="Search...." type="text" />
-
                 </div><!--input-search-->
-
             </div>
-
         </div><!--center-->
     </header>
-
-    <div id="main" class="main">
-
-        <div class="center">
-
+    <div class="center centro"> <!-- Adicionado a classe 'centro' -->
+        <div class="cards-container"> <!-- Adicionado -->
+            <div id="main" class="main">
+            </div>
         </div>
-
     </div>
     <script src="https://kit.fontawesome.com/aa1d7fc9dd.js" crossorigin="anonymous"></script>
-
-    <script src="movie.js">
-
-    </script>
-
-    <footer id="rodape">
-        <p>Copyright &copy; 2021 - by Alécio Leandro De Medeiros <a href="https://www.facebook.com/alex.leandro.0007"
-                target="_blank">
-                Facebook</a> | <a href="https://www.instagram.com/alexdesaran/" target="_blank">Instagram</a></p>
+    <script src="movie.js"></script>    
+    <footer>
+            Copyright &copy; 2020 Desenvolvido por
+            <a href="https://www.facebook.com/Madenxx/" target="_blank">Alécio L. Medeiros</a>.
+        
+            <a href="https://www.linkedin.com/in/madenx" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/M4deN" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/madenx/" target="_blank"><i class="fab fa-instagram"></i></a>        
+        </div>
     </footer>
 </body>
-
 </html>
