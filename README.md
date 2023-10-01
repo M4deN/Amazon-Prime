@@ -42,7 +42,7 @@ Foi desenvolvido diretamente no código.</p>
 
 <h3>Testes Automatizados</h3>
 
-https://github.com/M4deN/Amazon-Prime/assets/43422425/dadd7810-4360-44d7-9854-d2f766a6a12d
+https://github.com/M4deN/Amazon-Prime/assets/43422425/52c667f1-c37b-4dcf-bf86-21475bf51c0c
 
 
 <h2> CI (Integração Contínua)</h2>
