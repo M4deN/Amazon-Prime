@@ -11,5 +11,8 @@
   "license": "MIT",
   "devDependencies": {
     "cypress": "^12.15.0"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1"
   }
 }

@@ -63,7 +63,7 @@ header{
 
 .search {
     position: absolute; 
-    top: 0; 
+    top: 3%; 
     right: 0; 
     width: 40%;
     text-align: right;
@@ -72,14 +72,14 @@ header{
 .input-search {
     display: inline-block;
     margin-top: 1%;
-    margin-left: 0; /* Mudei o margin-left para 0 */
+    margin-left: 0; 
     margin-right: 6%;
 }
 
 .input-search i {
-    position: relative; /* Mudei a posição para 'relative' */
-    left: auto; /* Removi o 'left' */
-    top: auto; /* Removi o 'top' */
+    position: relative; 
+    left: auto; 
+    top: auto; 
     color: rgb(100, 100, 100);
 }
 
@@ -87,50 +87,47 @@ header{
     width: 80%;
     height: 30px;
     border: 1px solid rgb(120, 120, 120);
-    margin: 10px 0; /* Ajustei o margin */
+    margin: 10px 0; 
     padding-left: 26px;
     background-color: rgb(42, 42, 42);
     color: azure;
 }
-
 
 .banner-principal{
     width: 88%;
     height: 700px;
     background-size: cover;
     background-position: center;
-    margin-top: 1px;
 }  
 
 .main h2{
     color: white;
-    width: 100%;
-    margin:  0;    
+    width: 100%;   
 }
 .card-movie {
     transition: 1s;
     margin: 0;
     padding: 0;
     border: none;
-    width: 12.5%; /* 100% dividido por 8 */
-    box-sizing: border-box; /* Garante que a largura inclui padding e borda */
+    width: 12.5%; 
+    box-sizing: border-box; 
     margin-top: 0.5%;
-  }
-  
+  }  
   
   .card-movie img {
     width: 100%;
-    height: auto; /* Para manter a proporção da imagem */
+    height: auto; 
   }
   
   .centro {
     padding: 12px 1%;
     display: flex;
-    justify-content: center; /* Agora, centralizamos os cards */
+    justify-content: center; 
     flex-wrap: wrap;
     gap: 2px;
     margin-top: 3px;
 }
+
 .banner-principal:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
@@ -186,4 +183,3 @@ footer{
     font-size: 1.2em;
     margin-bottom: 10px;
 }
-
