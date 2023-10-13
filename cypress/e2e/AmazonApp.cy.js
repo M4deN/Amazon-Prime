@@ -44,7 +44,7 @@ describe('Navegação no Menu', () => {
     
 
     it('Deve permitir a realização de buscas', () => {        
-        cy.get('.input-search input').should('be.visible').type('Termo de busca')
+        cy.get('.input-search input').should('be.visible').type('o protetor 3')
         cy.get('.input-search i').should('have.class', 'fas fa-search')
     });
 
