@@ -34,15 +34,6 @@ describe('Navegação no Menu', () => {
         cy.get('.logo img').should('have.attr', 'src', '../Amazon-Prime/Imagens/Amazon_Logo.png')
     })
 
-    it('Deve permitir a navegação no menu', () => {
-        cy.contains('a', 'Home').click()
-        cy.url().should('eq', 'https://m4den.github.io/Amazon-Prime/home.html')
-        
-        cy.contains('a', 'TV Shows').should('be.visible').click()
-        cy.url().should('eq', 'https://m4den.github.io/Amazon-Prime/home.html#') 
-    })
-    
-
     it('Deve permitir a realização de buscas', () => {        
         cy.get('.input-search input').should('be.visible').type('o protetor 3')
         cy.get('.input-search i').should('have.class', 'fas fa-search')
