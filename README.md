@@ -19,7 +19,7 @@ Foi desenvolvido diretamente no código.</p>
 
 <p>O projeto não está Totalmente responsivo, atendendo a alguns dispositivos.</p>
 
-<h2 id="tecnologias">Tecnologias Usadas:</h2>
+<h2 id="tecnologias">Tecnologias:</h2>
 
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
