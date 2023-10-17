@@ -2,7 +2,6 @@
 <p><b>Site funcional Streaming de filmes. 🧮</b></p>
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-<a href="https://m4den.github.io/Amazon-Prime/"> Visite o site! </a>
 
 <h4> 
 	Projeto Concluído ✅
@@ -10,8 +9,8 @@
 
 <ul>
  <li><a href="#sobre">Sobre</a></li>
- <li><a href="#tecnologias">Tecnologias usadas</a></li> 
- <li><a href="#sessao">sessão da página</a></li>
+ <li><a href="#tecnologias">Tecnologias</a></li> 
+ <li><a href="#sessao">Sessões da Página</a></li>
 </ul>
 
 <h2 id="sobre">Sobre</h2>
@@ -31,11 +30,7 @@ Foi desenvolvido diretamente no código.</p>
 </p>
 
 
-<h2 id="sessao">Sessão do Projeto:</h2>
-
-<p>A página apresenta algumas sessões, essa é a sessão principal. Nela contém um menu na parte superior para a navegação na página<p>
-
-<h2>Sessão Principal:</h2>
+<h2 id="sessao">Sessões do Projeto:</h2>
 
 ![Começo](https://github.com/M4deN/Amazon-Prime/blob/main/Imagens/Capturar1.PNG)
 
