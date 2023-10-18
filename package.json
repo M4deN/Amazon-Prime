@@ -10,7 +10,7 @@
   "author": "Alecio L. Medeiros",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^12.15.0"
+    "cypress": "^13.3.1"
   },
   "dependencies": {
     "cypress-plugin-api": "^2.11.1"
