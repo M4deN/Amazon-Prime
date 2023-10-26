@@ -1,7 +1,7 @@
 <h1> Projeto Amazon Prime Video </h1>
 <p><b>Site funcional Streaming de filmes. 🧮</b></p>
 
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/M4deN/Amazon-Prime/ci.yml?label=Test%20Workflows&logo=Cypress&style=for-the-badge)
 
 <h4> 
 	Projeto Concluído ✅
@@ -25,8 +25,6 @@ Foi desenvolvido diretamente no código.</p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/M4deN/Amazon-Prime/ci.yml?label=Test%20Workflows&logo=GitHub&style=for-the-badge)
 </p>
 
 
